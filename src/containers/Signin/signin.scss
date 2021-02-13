@@ -1,0 +1,21 @@
+.signin_bc{
+    padding-top: 20%;
+      height: 100vh;
+    transition: 1s all;
+    width: 100%;
+    &:hover{
+        transform: scale(1.1);
+    }
+    z-index: -2;
+}
+.formaa{
+    z-index: 3;
+}
+.container{
+    overflow: hidden;
+    
+}
+.signin-btn{
+    background-color: rgba($color: #9b1717, $alpha: 1.0);
+    outline: none;
+}

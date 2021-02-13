@@ -1,0 +1,108 @@
+.order_wraper {
+  background: rgb(235, 235, 234);
+  background: linear-gradient(
+    90deg,
+    rgba(235, 235, 234, 1) 0%,
+    rgba(1, 1, 18, 1) 0%,
+    rgba(48, 47, 37, 0.8631827731092436) 100%,
+    rgba(47, 165, 247, 0.9668242296918768) 100%,
+    rgba(200, 219, 232, 0.9069248338870431) 100%
+  );
+
+}
+.order_footer_wraper {
+  background-color: rgba(27, 27, 25, 0.6);
+}
+.orders_wrap {
+  box-shadow: 5px 3px 13px 10px #000000;
+ 
+}
+.bottom_wraper_order {
+  background-color: rgba(26, 26, 22, 0.8);
+  margin-bottom: 40px;
+}
+.confirm_btn_order {
+  outline: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 7px;
+  margin-right: 10px;
+  color: white;
+  letter-spacing: 2px;
+  transition: 1s;
+  padding: 7px 5px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-around;
+ 
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  box-shadow: inset 0 0 8px rgb(26, 13, 13);
+  background-color: rgba($color: #c41f1f, $alpha: 1);
+  &:hover {
+    background-color: rgba($color: #fffdfd, $alpha: 0.4);
+    color: black;
+  }
+}
+// .confirm-icon{
+//   font-size: 24px;
+//   font-weight: 700;
+// }
+.select_order {
+    background-color: black;
+    color: white;
+    // width: 150px;
+    height: 40px;
+    font-weight: normal;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.value{
+    font-size: 18px;
+}
+title{
+    font-size: 28px;
+}
+
+.status{
+    font-size: 15px;
+}
+@media(max-width:900px){
+  .orderInfo{
+    display: none;
+    
+  }
+  .status{
+    display: none;
+  }
+  .point{
+    display: none;
+  }
+  .select_order{
+    display: none;
+  }
+  .confirm_btn_order{
+    display: none;
+  }
+  .orderTrack{
+    display: none;
+  }
+  .value{
+    font-size: 14px;
+  }
+  title{
+    font-size: 20px;
+}
+.status{
+  font-size: 12px;
+}
+.for_font{
+  font-size: 13px;
+}
+.cardHeader{
+  >.div{
+    font-size: 13px;
+  }
+  font-size: 13px;
+}
+}

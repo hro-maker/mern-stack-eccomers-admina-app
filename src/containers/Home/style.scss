@@ -1,0 +1,16 @@
+.disp_fl{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 10%;
+    span{
+        color: black;
+        font-size: 17px;
+        background-color: rgba($color: #ffffff, $alpha:0.7);
+    }
+}
+@media (max-width: 900px) {
+    .disp_fl{
+        padding-top: 30%;
+    }
+}
