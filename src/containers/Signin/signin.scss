@@ -3,10 +3,16 @@
       height: 100vh;
     transition: 1s all;
     width: 100%;
+    
     &:hover{
         transform: scale(1.1);
     }
     z-index: -2;
+}
+@media (max-height: 600px) {
+    .signin_bc{
+            overflow: scroll;
+    }
 }
 .formaa{
     z-index: 3;
