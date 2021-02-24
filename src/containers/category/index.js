@@ -356,7 +356,7 @@ const Category = (props) => {
         </Row>
        
       </Container>
-       {/* edit categories */}
+     
        {renderDeleteCategoryModal()}
        {renderAddcategory()}
       {
