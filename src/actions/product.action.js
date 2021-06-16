@@ -24,6 +24,7 @@ const getProducts = () => {
   
   export const addProduct = (form) => {
     return async (dispatch) => {
+      console.log("formmmmmmmmmmmmmmmmmmmmmmm",form)
       try {
         dispatch({ type: productConstans.ADD_PRODUCT_REQUEST });
         const res = await axios.post(`product/create`, form);
